@@ -727,7 +727,7 @@ WheelCollider:
     spring: 90000
     damper: 9000
     targetPosition: 0.5
-  m_SuspensionDistance: 0
+  m_SuspensionDistance: 0.3
   m_ForceAppPointDistance: 0
   m_Mass: 20
   m_WheelDampingRate: 0.25
@@ -851,7 +851,7 @@ MonoBehaviour:
   markerStartUVY: 0.7086935
   customPoints: []
   handleObject: {fileID: 0}
---- !u!43 &475974088
+--- !u!43 &386171762
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1665,11 +1665,11 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 475974088}
+  m_Mesh: {fileID: 386171762}
 --- !u!23 &878530269
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1679,7 +1679,7 @@ MeshRenderer:
   m_GameObject: {fileID: 878530266}
   m_Enabled: 1
   m_CastShadows: 0
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 0
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
@@ -1690,7 +1690,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 859800429}
+  - {fileID: 2100000, guid: f761f4fc054e544499dd006b29c3ce26, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1711,7 +1711,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 475974088}
+  m_AdditionalVertexStreams: {fileID: 386171762}
 --- !u!33 &878530270
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1719,7 +1719,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 878530266}
-  m_Mesh: {fileID: 475974088}
+  m_Mesh: {fileID: 386171762}
 --- !u!4 &878530271
 Transform:
   m_ObjectHideFlags: 0
@@ -1812,7 +1812,7 @@ WheelCollider:
     spring: 90000
     damper: 9000
     targetPosition: 0.5
-  m_SuspensionDistance: 0
+  m_SuspensionDistance: 0.3
   m_ForceAppPointDistance: 0
   m_Mass: 20
   m_WheelDampingRate: 0.25
@@ -2553,7 +2553,7 @@ WheelCollider:
     spring: 90000
     damper: 9000
     targetPosition: 0.5
-  m_SuspensionDistance: 0
+  m_SuspensionDistance: 0.3
   m_ForceAppPointDistance: 0
   m_Mass: 20
   m_WheelDampingRate: 0.25
@@ -4587,8 +4587,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a205ae601600ccf44b605676adca1b70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  motorForce: 90000
-  breakForce: 8000
+  motorForce: 80000
+  breakForce: 9.898098e+11
   maxSteerAngle: 45
   frontLeftWheelCollider: {fileID: 379521362}
   frontRightWheelCollider: {fileID: 912989285}
@@ -4606,7 +4606,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1622304532}
   serializedVersion: 4
-  m_Mass: 5000
+  m_Mass: 2000
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0.0348, z: 0}
@@ -4618,7 +4618,7 @@ Rigidbody:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_ImplicitCom: 1
+  m_ImplicitCom: 0
   m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -33791,7 +33791,7 @@ WheelCollider:
     spring: 90000
     damper: 9000
     targetPosition: 0.5
-  m_SuspensionDistance: 0
+  m_SuspensionDistance: 0.3
   m_ForceAppPointDistance: 0
   m_Mass: 20
   m_WheelDampingRate: 0.25
